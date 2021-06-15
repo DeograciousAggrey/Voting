@@ -1,0 +1,110 @@
+{
+  "contractName": "Voting",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/JOZA/Desktop/Solidity Contracts/Voting/src/contracts/Voting.sol\":\"Voting\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/JOZA/Desktop/Solidity Contracts/Voting/src/contracts/Voting.sol\":{\"keccak256\":\"0x920c7d32c2df86296b7d30fa1f495da5d0a5c7729824029322d000388c1bac34\",\"urls\":[\"bzz-raw://e86133de74071deba2578afcc7e9e683754ab4900ae80d82150cd6a071350160\",\"dweb:/ipfs/QmPYJ8ViTgvaFwaLrCwrM6dxzsdumUvUPRKy4Pi4yfzWzb\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820f685986b74698fe4d7633feb935213936b396e19ef1463721764581230e95d2864736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820f685986b74698fe4d7633feb935213936b396e19ef1463721764581230e95d2864736f6c63430005100032",
+  "sourceMap": "37:26:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;37:26:0;;;;;;;",
+  "deployedSourceMap": "37:26:0:-;;;;;",
+  "source": "pragma solidity >= 0.5.0 < 0.8.0;\r\n\r\ncontract Voting {\r\n    \r\n}",
+  "sourcePath": "C:/Users/JOZA/Desktop/Solidity Contracts/Voting/src/contracts/Voting.sol",
+  "ast": {
+    "absolutePath": "/C/Users/JOZA/Desktop/Solidity Contracts/Voting/src/contracts/Voting.sol",
+    "exportedSymbols": {
+      "Voting": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:33:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Voting",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "37:26:0"
+      }
+    ],
+    "src": "0:63:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/JOZA/Desktop/Solidity Contracts/Voting/src/contracts/Voting.sol",
+    "exportedSymbols": {
+      "Voting": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:33:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Voting",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "37:26:0"
+      }
+    ],
+    "src": "0:63:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2021-06-14T19:00:15.424Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
