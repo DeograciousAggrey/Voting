@@ -1,5 +1,5 @@
 //SPDX-License-Identifier: GPL-3.0
-pragma solidity >= 0.7.0 < 0.9.0;
+pragma solidity >= 0.5.0 < 0.9.0;
 
 ///@title voting with delegation
 contract Voting {
@@ -27,7 +27,7 @@ contract Voting {
     Proposal[] public proposals;
 
     //Create a  new ballot to choose one of "ProposalNames"
-    constructor (bytes32[] memory proposalNames) {
+    constructor (bytes32[] memory proposalNames) public {
         chairperson = msg.sender;
         voters[chairperson].weight = 1;
 
